@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-22T00:47:54 BDT" name="Default suite" finished-at="2022-10-22T00:48:35 BDT" duration-ms="40332">
+  <suite started-at="2022-10-22T14:43:47 BDT" name="Default suite" finished-at="2022-10-22T14:44:23 BDT" duration-ms="36085">
     <groups>
     </groups>
-    <test started-at="2022-10-22T00:47:54 BDT" name="Default test" finished-at="2022-10-22T00:48:35 BDT" duration-ms="40332">
+    <test started-at="2022-10-22T14:43:47 BDT" name="Default test" finished-at="2022-10-22T14:44:23 BDT" duration-ms="36085">
       <class name="HomePage.homePageTest">
-        <test-method is-config="true" signature="Browser()[pri:0, instance:HomePage.homePageTest@57a3af25]" started-at="2022-10-22T00:47:40 BDT" name="Browser" finished-at="2022-10-22T00:47:54 BDT" duration-ms="14657" status="PASS">
+        <test-method is-config="true" signature="Browser()[pri:0, instance:HomePage.homePageTest@7f0eb4b4]" started-at="2022-10-22T14:43:37 BDT" name="Browser" finished-at="2022-10-22T14:43:47 BDT" duration-ms="10225" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Browser -->
-        <test-method signature="notification()[pri:1, instance:HomePage.homePageTest@57a3af25]" started-at="2022-10-22T00:47:54 BDT" name="notification" finished-at="2022-10-22T00:47:57 BDT" duration-ms="2145" status="PASS">
+        <test-method signature="titleNacceptcook()[pri:1, instance:HomePage.homePageTest@7f0eb4b4]" started-at="2022-10-22T14:43:47 BDT" name="titleNacceptcook" finished-at="2022-10-22T14:43:49 BDT" duration-ms="2073" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- notification -->
-        <test-method signature="Support()[pri:2, instance:HomePage.homePageTest@57a3af25]" started-at="2022-10-22T00:47:57 BDT" name="Support" finished-at="2022-10-22T00:48:35 BDT" duration-ms="38129" status="PASS">
+        </test-method> <!-- titleNacceptcook -->
+        <test-method signature="logoTestNclick()[pri:2, instance:HomePage.homePageTest@7f0eb4b4]" started-at="2022-10-22T14:43:49 BDT" name="logoTestNclick" finished-at="2022-10-22T14:43:52 BDT" duration-ms="3516" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Support -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePage.homePageTest@57a3af25]" started-at="2022-10-22T00:48:35 BDT" name="tearDown" finished-at="2022-10-22T00:48:35 BDT" duration-ms="207" status="PASS">
+        </test-method> <!-- logoTestNclick -->
+        <test-method signature="HomeCarousel()[pri:3, instance:HomePage.homePageTest@7f0eb4b4]" started-at="2022-10-22T14:43:52 BDT" name="HomeCarousel" finished-at="2022-10-22T14:44:23 BDT" duration-ms="30475" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomeCarousel -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:HomePage.homePageTest@7f0eb4b4]" started-at="2022-10-22T14:44:23 BDT" name="tearDown" finished-at="2022-10-22T14:44:23 BDT" duration-ms="156" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

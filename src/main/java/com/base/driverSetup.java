@@ -10,7 +10,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class driverSetup {
 
-   public static WebDriver driver;
+   public  WebDriver driver;
 	public static String baseUrl = "https://www.amarr.com/us/en";
 	
 	public void Driversetup() throws InterruptedException {
