@@ -5,8 +5,8 @@
     <classes>
       <class name="HomePage.homePageTest">
         <methods>
+          <include name="HomeCarousel"/>
           <include name="Browser"/>
-          <include name="Homecarousel"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- HomePage.homePageTest -->
