@@ -15,7 +15,6 @@ public class driverSetup {
 
    public  WebDriver driver;
 	public static String baseUrl = "https://www.amarr.com/us/en";
-	By seeWhy = By.xpath("(//button[@class=\"styles__Button-sc-1jt3i0i-1 jQxBoy btn btn-success\"] [@role=\"presentation\"])[6]");
 	
 	//(//section[@id="why-Amarr-garage"])[2]
 	
@@ -35,7 +34,6 @@ public class driverSetup {
 		 JavascriptExecutor je = (JavascriptExecutor) driver;
 		 je.executeScript("arguments[0].scrollIntoView();", scrollFindOne);
 		 Thread.sleep(3000);
-		 driver.findElement(seeWhy).click();
 	}
 
 }

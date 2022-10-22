@@ -7,10 +7,9 @@ public class HomepageCarousel {
 	public WebDriver driver;
 
 	
-	 public HomepageCarousel(WebDriver driver) { this.driver = driver; }
-	 
-
-	
+	 public HomepageCarousel(WebDriver driver) {
+		 this.driver = driver; 
+		 }
 	
 	
 	By carOne = By.xpath("//li[@data-target='#home-carousel'][1]");
